@@ -1,0 +1,139 @@
+@charset 'utf-8';
+#container{
+    width: 50%;
+    margin: 10px auto;
+}
+#header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#username{
+    font-size: 1.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#form{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#chat_area{
+    height: 80vh;
+    overflow: scroll;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+#message_area{
+    height: 10vh;
+    display: flex;
+}
+#text_area{
+    width: 80%;
+}
+#button_area{
+    width: 20%;
+}
+#comment{
+    width: 98%;
+    height: 90%;
+    resize: none;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    margin-top: 1vh;
+    margin-right: 0;
+}
+#submit{
+    height: 90%;
+    width: 100%;
+    background: #aaa;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    margin-top: 1vh;
+}
+.dbox{
+    width: 130px;
+    height: 25px;
+    background-color: #aaaaaa;
+    border-radius: 9px;
+    align-self: center;
+    margin: 5px;
+    text-align:center;
+    display:table;
+}
+p.date{
+    display:table-cell;
+    font-weight: bold;
+    font-size: 0.5rem;
+    vertical-align:middle;
+}
+.talk{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    position: relative;
+    margin: auto 0px;
+    display: flex;
+    align-items: flex-end;
+}
+.time{
+    font-size: 0.5rem;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.mytime{
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.box{
+    position: relative;
+    margin-left: 10px;
+    margin: 5px;
+    margin-right: 45%;
+}  
+.others{
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto 0px;
+    background: #eeeeee;
+}
+.mybox{
+    position: relative;
+    margin-right: 10px;
+    margin: 5px;
+    margin-left: 45%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.myself{
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto 0px;
+    background-color: #9cd6e7;
+}
+p.name{
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin: auto 0px;
+    position: relative;
+}
+p.comment{
+    margin: 0 0 20px;
+    word-break: break-all;
+    text-align: justify;
+}
+p.comment:last-child{
+    margin-bottom: 0px;
+}
