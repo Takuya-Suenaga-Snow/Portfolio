@@ -6,15 +6,11 @@ if(isset($_POST['connect'])){  // 登録ボタンが押された場合
     $password = $_POST['password'];
     if($dbname == ''){
         $error1 = '!データベース名を入力して下さい!';
-    }else{
-        $error1 = '';
     }
     if($password == ''){
         $error2 = '！パスワードを入力して下さい！';
-    }else{
-        $error2 = '';
     }
-    if($error1.$error2 == ''){  // セッションの保存
+    if(!isset($error1) && !isset($error2)){  // セッションの保存
         $_SESSION['dbname'] = $dbname;
         $_SESSION['password'] = $password;
     }
